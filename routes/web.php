@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// page home
 Route::get('/', function () {
-    return view('welcome');
+    return view('themes.ljn.index');
 });
