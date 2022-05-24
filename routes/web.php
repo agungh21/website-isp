@@ -22,3 +22,11 @@ Route::get('/', function () {
 Route::get('/contact', function () {
     return view('themes.ljn.pages.contact');
 });
+
+Route::get('/post', function(){
+    return view('themes.ljn.post');
+});
+
+Route::get('/posts', function(){
+    return view('themes.ljn.posts');
+});

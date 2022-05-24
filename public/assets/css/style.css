@@ -509,7 +509,7 @@ button:focus {
 }
 
 .banner_area .bg-parallax {
-    background: url("../images/ljn/background-front.jpg") no-repeat scroll center 0/cover;
+    background: url("../images/ljn/background-front-2.png") no-repeat scroll center 0/cover;
     opacity: 0.50;
 }
 
@@ -838,7 +838,7 @@ button:focus {
 }
 
 .facilities_area .bg-parallax {
-    background: url("../images/ljn/background-secondary.jpg") no-repeat scroll center 0/cover;
+    background: url("../images/ljn/background-secondary-2.png") no-repeat scroll center 0/cover;
     opacity: 0.15;
 }
 

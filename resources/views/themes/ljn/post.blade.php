@@ -1,4 +1,4 @@
-@extends('themes.hotel_intan.layouts')
+@extends('themes.ljn.layouts')
 @section('content')
         <!--================Blog Area =================-->
         <section class="blog_area single-post-area mt-4">
@@ -11,22 +11,22 @@
                             </div>
                             <div class="col-lg-9">
                                 <div class="feature-img">
-                                        <img class="img-fluid" src="{{ $post->thumbnailLink() }}" alt="">
+                                        {{-- <img class="img-fluid" src="{{ $post->thumbnailLink() }}" alt=""> --}}
                                 </div>
                             </div>
                             <div class="col-lg-3  col-md-3">
                                 <div class="blog_info text-right">
                                     <div class="post_tag">
-                                        {!! $post->tagsHtml() !!}
+                                        {{-- {!! $post->tagsHtml() !!} --}}
                                     </div>
                                     <ul class="blog_meta list_style">
                                         <li>Agung<i class="lnr lnr-user"></i></li>
-                                        <li>{{ $post->modifiedAt()}}<i class="lnr lnr-calendar-full"></i></li>
+                                        {{-- <li>{{ $post->modifiedAt()}}<i class="lnr lnr-calendar-full"></i></li> --}}
                                     </ul>
                                 </div>
                             </div>
                             <div class="col-lg-9 col-md-9 blog_details mb-4">
-                                {!! $post->content !!}
+                                {{-- {!! $post->content !!} --}}
                             </div>
                         </div>
                     </div>

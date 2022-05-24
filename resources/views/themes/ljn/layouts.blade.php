@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" href="image/favicon.png" type="image/png">
+    <link rel="icon" href="#" type="image/png">
     <title>Lintas Jaringan Nusantara</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.css') }}">
@@ -40,7 +40,7 @@
     <div class="container-fluid p-0 m-0">
         <nav class="navbar navbar-expand-lg navbar-light" style="b">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <i class="fas fa-hotel mr-2 text-warning"></i><a class="navbar-brand logo_h" href="/"><strong class="text-warning">Lintas Jaringan Nusantara</strong></a>
+            <a class="navbar-brand logo_h" href="/"><img src="{{ asset('assets/images/ljn/ljnpng.png') }}" width="150px" alt="" class="p-2"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="icon-bar"></span>
@@ -50,7 +50,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                 <ul class="nav navbar-nav menu_nav ml-auto">
-                    <li class="nav-item active"><a class="nav-link" href="{{ url('/') }}"><i class="fas fa-home"></i></a>
+                    <li class="nav-item active"><a class="nav-link" href="{{ url('/') }}"><i class="fas fa-home text-warning"></i></a>
                     </li>
                     {{-- @foreach(getMenus() as $menu)
 
@@ -186,4 +186,3 @@
 </body>
 
 </html>
-

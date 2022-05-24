@@ -1,4 +1,4 @@
-@extends('themes.hotel_intan.layouts')
+@extends('themes.ljn.layouts')
 @section('content')
         <!--================Blog Area =================-->
         <section class="blog_area mt-4">
@@ -7,19 +7,19 @@
                     <div class="col-lg-8 mt-4">
                         <div class="blog_left_sidebar">
                             <?php
-                                $activePage = isset($_GET['page']) ? $_GET['page'] : 1;
-                                $posts = getPosts($activePage);
+                                // $activePage = isset($_GET['page']) ? $_GET['page'] : 1;
+                                // $posts = getPosts($activePage);
                             ?>
-                            @foreach ($posts as $p)
+                            {{-- @foreach ($posts as $p) --}}
                             <article class="row blog_item">
                                 <div class="col-md-3">
                                     <div class="blog_info text-right">
                                         <div class="post_tag">
-                                            {!! $p->tagsHtml() !!}
+                                            {{-- {!! $p->tagsHtml() !!} --}}
                                         </div>
                                         <ul class="blog_meta list_style">
-                                            <li>{{ $p->createdByName() }} <i class="lnr lnr-user"></i></li>
-                                            <li>{{ $p->modifiedAt()}} <i class="lnr lnr-calendar-full"></i></li>
+                                            {{-- <li>{{ $p->createdByName() }} <i class="lnr lnr-user"></i></li> --}}
+                                            {{-- <li>{{ $p->modifiedAt()}} <i class="lnr lnr-calendar-full"></i></li> --}}
                                         </ul>
                                     </div>
                                 </div>
@@ -27,39 +27,39 @@
                                     <div class="card">
                                         <div class="card-body">
                                             <div class="blog_post">
-                                                <img src="{{ $p->thumbnailLink() }}" alt="post-image">
+                                                {{-- <img src="{{ $p->thumbnailLink() }}" alt="post-image"> --}}
                                                 <div class="blog_details">
-                                                    <a href="/{{ $p->fullSlug() }}"><h2>{{ $p->title}}</h2></a>
-                                                    <p>{!! substr($p->content, 0, 300).'...' !!}</p>
-                                                    <a href="/{{ $p->fullSlug() }}" class="view_btn button_hover">View More</a>
+                                                    {{-- <a href="/{{ $p->fullSlug() }}"><h2>{{ $p->title}}</h2></a> --}}
+                                                    {{-- <p>{!! substr($p->content, 0, 300).'...' !!}</p> --}}
+                                                    {{-- <a href="/{{ $p->fullSlug() }}" class="view_btn button_hover">View More</a> --}}
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </article>
-                            @endforeach
+                            {{-- @endforeach --}}
 
                             <nav class="blog-pagination justify-content-center d-flex">
                                 <ul class="pagination">
                                     <?php
-                                        $limit = setting('posts_per_page', 5);
-                                        $amountOfPosts = \App\Models\Post::count();
-                                        $config = [
-                                            'limit_per_page'    => $limit,
-                                            'amount_of_items'   => $amountOfPosts,
-                                            'active_page'       => $activePage,
-                                            'link'              => route('website.posts').'?page={number}',
-                                            'open_tag'          => '<li class="page-item"><a href="{link}" class="page-link">',
-                                            'close_tag'         => '</a></li>',
-                                            'open_tag_on_active'=> '<li class="page-item"><a href="javascript:void(0);" class="page-link">',
-                                            'prev_button_text'  => '<span aria-hidden="true"> <span class="lnr lnr-chevron-left"></span> </span>',
-                                            'next_button_text'  => '<span aria-hidden="true"> <span class="lnr lnr-chevron-right"></span> </span>',
+                                        // $limit = setting('posts_per_page', 5);
+                                        // $amountOfPosts = \App\Models\Post::count();
+                                        // $config = [
+                                        //     'limit_per_page'    => $limit,
+                                        //     'amount_of_items'   => $amountOfPosts,
+                                        //     'active_page'       => $activePage,
+                                        //     'link'              => route('website.posts').'?page={number}',
+                                        //     'open_tag'          => '<li class="page-item"><a href="{link}" class="page-link">',
+                                        //     'close_tag'         => '</a></li>',
+                                        //     'open_tag_on_active'=> '<li class="page-item"><a href="javascript:void(0);" class="page-link">',
+                                        //     'prev_button_text'  => '<span aria-hidden="true"> <span class="lnr lnr-chevron-left"></span> </span>',
+                                        //     'next_button_text'  => '<span aria-hidden="true"> <span class="lnr lnr-chevron-right"></span> </span>',
 
-                                        ];
-                                        $paginationHtml = pagination($config);
+                                        // ];
+                                        // $paginationHtml = pagination($config);
                                     ?>
-                                    {!! $paginationHtml !!}
+                                    {{-- {!! $paginationHtml !!} --}}
                                 </ul>
                             </nav>
                         </div>
