@@ -17,3 +17,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('themes.ljn.index');
 });
+
+// page contact
+Route::get('/contact', function () {
+    return view('themes.ljn.pages.contact');
+});

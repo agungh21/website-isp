@@ -682,7 +682,7 @@ button:focus {
 }
 
 .breadcrumb_area .bg-parallax {
-    background: url("../images/hotel/hotel-intan-1.jpg") no-repeat scroll center 0/cover;
+    background: url("../images/ljn/background-secondary.jpg") no-repeat scroll center 0/cover;
     opacity: 0.50;
     z-index: -1;
 }
@@ -760,7 +760,7 @@ button:focus {
 }
 
 .blog_banner_two .bg-parallax {
-    background: url("../images/hotel/unsplash-img-front-hotel.jpg") no-repeat scroll center top/cover;
+    background: url("../images/ljn/background-secondary.jpg") no-repeat scroll center top/cover;
 }
 
 /*=============End Blog Banner css =============*/
@@ -838,7 +838,7 @@ button:focus {
 }
 
 .facilities_area .bg-parallax {
-    background: url("../images/hotel/img-front-hotel.jpg") no-repeat scroll center 0/cover;
+    background: url("../images/ljn/background-secondary.jpg") no-repeat scroll center 0/cover;
     opacity: 0.15;
 }
 

@@ -37,8 +37,8 @@
     {{-- nav-bar --}}
     <!--================Header Area =================-->
 <header class="header_area">
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid p-0 m-0">
+        <nav class="navbar navbar-expand-lg navbar-light" style="b">
             <!-- Brand and toggle get grouped for better mobile display -->
             <i class="fas fa-hotel mr-2 text-warning"></i><a class="navbar-brand logo_h" href="/"><strong class="text-warning">Lintas Jaringan Nusantara</strong></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -138,33 +138,11 @@
 <footer class="footer-area section_gap">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3  col-md-6 col-sm-6">
+            <div class="col-lg-6  col-md-6 col-sm-6">
                 <div class="single-footer-widget">
-                    <h6 class="footer_title">About Hotel</h6>
-                    <p>Hotel simpel yang terletak di bangunan dengan fasad warni-warni ini berjarak 3 km dari stasiun kereta Cirebon Prujakan, 1 km dari Keraton Kacirebonan abad ke-19, dan 5 km dari Pantai
-                        Kejawanan. </p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="single-footer-widget">
-                    <h6 class="footer_title">Navigation Links</h6>
-                    <div class="row">
-                        <div class="col-4">
-                            <ul class="list_style">
-                                <li><a href="/">Home</a></li>
-                                <li><a href="/meeting">Meeting</a></li>
-                                <li><a href="/contact">Contact</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-8">
-                            <ul class="list_style">
-                                <li><a href="/room-suite">Suite</a></li>
-                                <li><a href="/room-junior-suite">Junior Suite</a></li>
-                                <li><a href="/room-premier-suite">Premier Suite</a></li>
-                                <li><a href="/room-standard">Standard</a></li>
-                            </ul>
-                        </div>
-                    </div>
+                    <h6 class="footer_title">About LJN</h6>
+                    <p>We are the best solution for school, campus, office, hotel and personal needs. LJN is here by optimizing fiber optic cables so as to produce fast and stable internet. LJN has internet packages and cctv installation at the best prices.
+                    </p>
                 </div>
             </div>
         </div>
