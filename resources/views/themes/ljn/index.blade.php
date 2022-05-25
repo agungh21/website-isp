@@ -218,45 +218,20 @@
             </div>
             <div class="row imageGallery1" id="gallery">
                 <div class="col-md-4 gallery_item">
-                    <div class="">
                         <img src="{{ asset('assets/images/ljn/galeri-1.png') }}" alt="">
-                        <div class="hover">
-                            <a class="light" href="{{ asset('assets/images/ljn/galeri-1.png') }}"></a>
-                        </div>
-                    </div>
                 </div>
                 <div class="col-md-4 gallery_item">
-                    <div class="">
                         <img src="{{ asset('assets/images/ljn/galeri-2.png') }}" alt="">
-                        <div class="hover">
-                            <a class="light" href="{{ asset('assets/images/ljn/galeri-2.png') }}"></a>
-                        </div>
-                    </div>
                 </div>
                 <div class="col-md-4 gallery_item">
-                    <div class="">
                         <img src="{{ asset('assets/images/ljn/galeri-3.jpg') }}" alt="">
-                        <div class="hover">
-                            <a class="light" href="{{ asset('assets/images/ljn/galeri-3.jpg') }}"></a>
-                        </div>
-                    </div>
                 </div>
                 <div class="col-md-4 gallery_item">
-                    <div class="">
                         <img src="{{ asset('assets/images/ljn/galeri-5.jpg') }}" alt="">
-                        <div class="hover">
-                            <a class="light" href="{{ asset('assets/images/ljn/galeri-5.jpg') }}"></a>
-                        </div>
-                    </div>
                 </div>
 
                 <div class="col-md-4 gallery_item">
-                    <div class="">
                         <img src="{{ asset('assets/images/ljn/galeri-4.jpg') }}" alt="">
-                        <div class="hover">
-                            <a class="light" href="{{ asset('assets/images/ljn/galeri-4.jpg') }}"></a>
-                        </div>
-                    </div>
                 </div>
                 {{-- <div class="col-md-4 gallery_item">
                     <div class="gallery_img">

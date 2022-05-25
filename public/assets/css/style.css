@@ -882,12 +882,33 @@ button:focus {
 }
 
 /*=========== End about_history_area css =============*/
+
+/* image grid */
+.image-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 400px;
+    gap: 16px;
+}
+
+.image-grid > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .gallery_item {
+    box-sizing: border-box;
     margin-bottom: 30px;
+    height: 300px;
+    overflow: hidden;
+    text-align: center;
 }
 
 .gallery_item img {
-    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .gallery_item .gallery_img {
