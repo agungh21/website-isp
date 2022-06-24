@@ -90,7 +90,8 @@ body {
     font-size: 14px;
     font-family: "Poppins", sans-serif;
     font-weight: 300;
-    color: #777777;
+    background: rgb(255,196,140);
+    background: linear-gradient(90deg, rgba(255,196,140,1) 0%, rgba(255,246,175,1) 100%);
 }
 
 section {
@@ -119,6 +120,8 @@ button:focus {
 
 .section_gap {
     padding: 120px 0;
+    background: rgb(255,196,140);
+    background: linear-gradient(90deg, rgba(255,196,140,1) 0%, rgba(255,246,175,1) 100%);
 }
 
 .d_flex {
@@ -909,6 +912,7 @@ button:focus {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 25px;
 }
 
 .gallery_item .gallery_img {
@@ -951,13 +955,15 @@ button:focus {
 /*----------------------------------------------------*/
 /*============ testimonial_area css ============*/
 .testimonial_area {
-    background: #f9f9ff;
+    background: rgb(255,124,0);
+    background: linear-gradient(90deg, rgba(255,124,0,1) 0%, rgba(255,226,0,1) 100%);
 }
 
 .testimonial_slider .testimonial_item {
     border: 1px solid #eeeeee;
     background: #fff;
     padding: 40px;
+    border-radius: 25px;
 }
 
 .testimonial_slider .testimonial_item img {
@@ -1006,7 +1012,7 @@ button:focus {
 }
 
 .testimonial_slider .owl-dots .owl-dot.active {
-    background: #f3c300;
+    background: black;
 }
 
 /*---------------------------------------------------- */
@@ -3529,14 +3535,17 @@ h6 {
 /*----------------------------------------------------*/
 /*============== footer-area css ===============*/
 .footer-area {
-    background: #04091e;
-    padding: 142px 0px;
+    background: rgb(255,124,0);
+    background: linear-gradient(90deg, rgba(255,124,0,1) 0%, rgba(255,226,0,1) 100%);
+    padding: 50px 0px;
+    color: white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 .single-footer-widget ul li a {
     line-height: 25px;
     display: inline-block;
-    color: #777;
     -webkit-transition: all 0.3s linear;
     -o-transition: all 0.3s linear;
     transition: all 0.3s linear;
@@ -3544,7 +3553,7 @@ h6 {
 }
 
 .single-footer-widget ul li a:hover {
-    color: #f3c300;
+    color: white;
 }
 
 .single-footer-widget .instafeed {
@@ -3571,25 +3580,25 @@ h6 {
     line-height: 30px;
     padding-right: 40px;
     height: 40px;
-    color: #999999;
+    color: white;
     background: transparent;
     padding-left: 20px;
 }
 
 .single-footer-widget input.placeholder {
-    color: #999999;
+    color: white;
 }
 
 .single-footer-widget input:-moz-placeholder {
-    color: #999999;
+    color: white;
 }
 
 .single-footer-widget input::-moz-placeholder {
-    color: #999999;
+    color: white;
 }
 
 .single-footer-widget input::-webkit-input-placeholder {
-    color: #999999;
+    color: white;
 }
 
 .single-footer-widget input:focus {
@@ -3597,7 +3606,6 @@ h6 {
 }
 
 .single-footer-widget .sub-btn {
-    background: #f3c300;
     color: #fff;
     font-weight: 300;
     border-radius: 0;
@@ -3621,7 +3629,7 @@ h6 {
 .border_line {
     width: 100%;
     height: 1px;
-    background: #333333;
+    background: white;
     margin-top: 30px;
 }
 
@@ -3630,7 +3638,7 @@ h6 {
 }
 
 .footer-bottom .footer-text a {
-    color: #f3c300;
+    color: white;
 }
 
 .footer-bottom .footer-social {
@@ -3640,7 +3648,7 @@ h6 {
 .footer-bottom .footer-social a {
     font-size: 18px;
     line-height: 30px;
-    color: #82848f;
+    color: white;
     margin-left: 25px;
     -webkit-transition: all 0.3s linear;
     -o-transition: all 0.3s linear;
@@ -3648,7 +3656,7 @@ h6 {
 }
 
 .footer-bottom .footer-social a:hover {
-    color: #f3c300;
+    color: black;
 }
 
 /*---------------------------------------------------- */

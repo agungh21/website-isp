@@ -20,7 +20,7 @@
     <section class="accomodation_area section_gap">
         <div class="container">
             <div class="section_title text-center">
-                <h2 class="title_color text-warning">Lintas Jaringan Nusantara</h2>
+                <h2 class="title_color text-dark">Lintas Jaringan Nusantara</h2>
                 <p>Nowadays, the internet has become an important need for humans. General activities to special activities, the internet is needed to simplify and speed up these activities.</p>
             </div>
             <div class="row mb_30">
@@ -32,7 +32,7 @@
                         <a href="/room-suite">
                             <h4 class="sec_h4">Paket A</h4>
                         </a>
-                        <h5 class="text-warning">Rp. 199.000<small>/Mount</small></h5>
+                        <h5 class="text-dark">Rp. 199.000<small>/Mount</small></h5>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
@@ -43,7 +43,7 @@
                         <a href="/room-junior-suite">
                             <h4 class="sec_h4">Paket B</h4>
                         </a>
-                        <h5 class="text-warning">Rp. 299.000<small>/Mount</small></h5>
+                        <h5 class="text-dark">Rp. 299.000<small>/Mount</small></h5>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
@@ -54,7 +54,7 @@
                         <a href="/room-premier-suite">
                             <h4 class="sec_h4">Paket C</h4>
                         </a>
-                        <h5 class="text-warning">Rp. 699.000<small>/Mount</small></h5>
+                        <h5 class="text-dark">Rp. 699.000<small>/Mount</small></h5>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
@@ -65,7 +65,7 @@
                         <a href="/room-standard">
                             <h4 class="sec_h4">Paket D</h4>
                         </a>
-                        <h5 class="text-warning">Rp. 999.000<small>/Mount</small></h5>
+                        <h5 class="text-dark">Rp. 999.000<small>/Mount</small></h5>
                     </div>
                 </div>
             </div>
@@ -122,9 +122,9 @@
     <section class="about_history_area section_gap">
         <div class="container">
             <div class="section_title text-center">
-                <h2 class="title title_color text-warning">Contact Me</h2>
+                <h2 class="title title_color text-dark">Contact Me</h2>
                 <p>We are the best solution for school, campus, office, hotel and personal needs. LJN is here by optimizing fiber optic cables so as to produce fast and stable internet. LJN has internet packages and cctv installation at the best prices.</p>
-                <a href="#" class="btn btn-outline-warning mt-3">Click Here</a>
+                <a href="#" class="btn btn-outline-dark mt-3">Click Here</a>
             </div>
         </div>
     </section>
@@ -134,7 +134,7 @@
     <section class="testimonial_area section_gap">
         <div class="container">
             <div class="section_title text-center">
-                <h2 class="title_color">Testimonial from our Clients</h2>
+                <h2 class="title_color text-light">Testimonial from our Clients</h2>
                 <p>we have customers from various regions.
                 </p>
             </div>

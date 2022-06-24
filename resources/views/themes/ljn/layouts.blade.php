@@ -128,8 +128,6 @@
     </div>
 </header>
 <!--================Header Area =================-->
-
-
     {{-- content --}}
     @yield('content')
 
