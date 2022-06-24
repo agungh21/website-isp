@@ -336,7 +336,6 @@ button:focus {
 .navbar {
     padding: 0px;
     border: 0px;
-    border-radius: 0px;
 }
 
 .navbar {
@@ -913,6 +912,7 @@ button:focus {
     height: 100%;
     object-fit: cover;
     border-radius: 25px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
 .gallery_item .gallery_img {
